@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-
+    /* Array for sorting */
 	var numbers = []int{5, 6, 8, 10, 23, 6, 7, 7, 7}
 	var i, j int
 
