@@ -5,11 +5,10 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
+	"gopkg.in/gookit/color.v1"
 	"time"
 
-	"../connection"
-
-	"gopkg.in/gookit/color.v1"
+	"go_101/dbOps/connection"
 )
 
 //Tweet - struct to map with mongodb documents
