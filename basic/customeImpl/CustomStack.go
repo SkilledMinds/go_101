@@ -2,7 +2,7 @@ package main
 
 // Implementation : custom implementation of Stack
 
-// What all are covered here : Generics, Panic() , Recover()
+// What all are covered here : Generics, Panic() , Recover() , Error handling
 
 // TODO : Change to thread safe Stack
 // TODO : Implement dynamic capacity increase once threshold reach
