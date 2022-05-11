@@ -4,7 +4,7 @@ package main
 
 // What all are covered here : Generics, Panic() , Recover() , Error handling
 
-// TODO : Change to thread safe Stack
+// TODO : Change to a thread safe Stack
 // TODO : Implement dynamic capacity increase once threshold reach
 // TODO : Add Load factor percentage to support dynamic capacity
 
