@@ -28,6 +28,8 @@ func main() {
 	var j int
 
 	fmt.Println(" ******  PUSH elements to stack   ******")
+
+	// iterate more to create panic
 	for j = 0; j < 11; j++ {
 		objTostk := "A:" + strconv.Itoa(j)
 		push(objTostk)
@@ -35,12 +37,13 @@ func main() {
 
 	fmt.Println(" ******  POP elements from stack   ******")
 
+	// iterate more to create panic
 	for j = 0; j < 11; j++ {
 		object, errorInPop := pop()
 		if errorInPop != nil {
 			fmt.Println("No more element for POP")
 		} else {
-			fmt.Println("POPed => ", object)
+			fmt.Println("POPPed => ", object)
 		}
 
 	}
