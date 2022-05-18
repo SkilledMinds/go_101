@@ -13,12 +13,13 @@ var validTicketIDs = []int{56, 73, 10, 13, 73, 13, 113, 78}
 func main() {
 
 	// channel first created
-	ch := make(chan int)
+	ch := make(chan int) // Unbuffered channel
 
 	// channel second created
-	done := make(chan bool)
+	done := make(chan bool) // Unbuffered channel
 
 	// let's execute ticket validation process through two separate goroutines ( two threads )
+	// only one goroutine has access to a data item at any given time
 	go displayParkingTicketID(ch)
 	go verifyParkingTicketID(ch, done)
 
